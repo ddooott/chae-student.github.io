@@ -1,0 +1,18 @@
+CoreJS:1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+CoreJS:1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+var Constructor = function (name) {
+    this.name = name;
+};
+undefined
+Constructor.prototype.method1 = function() {};
+ƒ () {}
+Constructor.prototype.property1 = 'Constructor Prototype Propeprty';
+'Constructor Prototype Propeprty'
+var instance = new Constructor('Instance');
+undefined
+console.dir(Constructor);
+VM1104:1 ƒ Constructor(name)arguments: nullcaller: nulllength: 1name: "Constructor"prototype: method1: ƒ ()property1: "Constructor Prototype Propeprty"constructor: ƒ (name)[[Prototype]]: Object[[FunctionLocation]]: VM663:1[[Prototype]]: ƒ ()apply: ƒ apply()arguments: (...)bind: ƒ bind()call: ƒ call()caller: (...)constructor: ƒ Function()length: 1name: "Function"prototype: ƒ ()arguments: (...)caller: (...)[[Prototype]]: ƒ ()apply: ƒ apply()arguments: (...)bind: ƒ bind()call: ƒ call()caller: (...)constructor: ƒ Function()length: 0name: ""toString: ƒ toString()Symbol(Symbol.hasInstance): ƒ [Symbol.hasInstance]()get arguments: ƒ ()set arguments: ƒ ()get caller: ƒ ()set caller: ƒ ()[[FunctionLocation]]: ​[[Prototype]]: Objectlength: 0name: ""toString: ƒ toString()Symbol(Symbol.hasInstance): ƒ [Symbol.hasInstance]()get arguments: ƒ ()set arguments: ƒ ()get caller: ƒ ()set caller: ƒ ()[[FunctionLocation]]: ​[[Prototype]]: Object
+undefined
+console.dir(instance);
+VM1175:1 Constructorname: "Instance"[[Prototype]]: Objectmethod1: ƒ ()property1: "Constructor Prototype Propeprty"constructor: ƒ (name)[[Prototype]]: Objectconstructor: ƒ Object()hasOwnProperty: ƒ hasOwnProperty()isPrototypeOf: ƒ isPrototypeOf()propertyIsEnumerable: ƒ propertyIsEnumerable()toLocaleString: ƒ toLocaleString()toString: ƒ toString()valueOf: ƒ valueOf()__defineGetter__: ƒ __defineGetter__()__defineSetter__: ƒ __defineSetter__()__lookupGetter__: ƒ __lookupGetter__()__lookupSetter__: ƒ __lookupSetter__()__proto__: (...)get __proto__: ƒ __proto__()set __proto__: ƒ __proto__()
+undefined
