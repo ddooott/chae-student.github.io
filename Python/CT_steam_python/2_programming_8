@@ -1,0 +1,11 @@
+import turtle
+turtle.shape("turtle")
+turtle.forward(100)
+turtle.left(120)
+turtle.forward(100)
+turtle.left(120)
+turtle.forward(100)
+turtle.left(120)
+turtle.reset() #터틀 그래픽 초기화
+turtle.shape("turtle")
+turtle.circle(100)
