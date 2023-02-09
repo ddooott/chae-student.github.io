@@ -1,8 +1,14 @@
 a =3
 c = a + b + 1
 
-#수정
+#에러
+#Traceback (most recent call last):
+  #File "<stdin>", line 1, in <module>
+#NameError: name 'b' is not defined
 
+#b=1대입(초기화를 해야함)
+
+#해결책
 a=3
-reset(a)
+b=1
 c=a+b+1
