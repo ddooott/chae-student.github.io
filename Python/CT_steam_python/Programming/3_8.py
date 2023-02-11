@@ -1,0 +1,8 @@
+radius = int(input("반지름: "))
+length = int(input("진행: "))
+turtle.circle(radius)
+turtle.forward(length)
+turtle.circle(radius)
+turtle.forward(length)
+turtle.circle(radius)
+turtle.forward(length)
