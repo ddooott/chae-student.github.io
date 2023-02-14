@@ -1,3 +1,5 @@
+//배열의 얕은 복사를 수행
+
 public static void ex1() {
   System.out.println("-----배열 복사(얕은 복사)-----");
   
